@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSmart - Demo del Sitio Web</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        .demo-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .demo-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            border-left: 5px solid #4CAF50;
+        }
+        .demo-section h2 {
+            color: #4CAF50;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .feature-list li:before {
+            content: "✓ ";
+            color: #4CAF50;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .demo-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .demo-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .tech-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .tech-item:hover {
+            border-color: #4CAF50;
+            transform: scale(1.05);
+        }
+        .instructions {
+            background: rgba(255, 193, 7, 0.2);
+            border: 2px solid #FFC107;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .instructions h3 {
+            color: #FFC107;
+            margin-top: 0;
+        }
+        .code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+            border-left: 3px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <h1>🚀 EcoSmart - Sitio Web Completo</h1>
+        
+        <div class="demo-section">
+            <h2>📋 Resumen del Proyecto</h2>
+            <p>Se ha creado un sitio web completo y profesional para el tanque de basura inteligente EcoSmart, con todas las funcionalidades solicitadas y un diseño moderno y responsivo.</p>
+        </div>
+
+        <div class="demo-section">
+            <h2>✨ Características Implementadas</h2>
+            <ul class="feature-list">
+                <li>Página de inicio con presentación del producto</li>
+                <li>Sección de beneficios (sin contacto, control inteligente, prevención)</li>
+                <li>Características detalladas del producto</li>
+                <li>Información sobre la app móvil con mockup</li>
+                <li>Mapa interactivo con Google Maps</li>
+                <li>Formulario de contacto y compra completo</li>
+                <li>Diseño totalmente responsivo</li>
+                <li>Animaciones y efectos visuales modernos</li>
+                <li>Navegación suave entre secciones</li>
+                <li>Validación de formularios en tiempo real</li>
+            </ul>
+        </div>
+
+        <div class="demo-section">
+            <h2>🛠️ Tecnologías Utilizadas</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <strong>HTML5</strong><br>
+                    Estructura semántica
+                </div>
+                <div class="tech-item">
+                    <strong>CSS3</strong><br>
+                    Estilos modernos
+                </div>
+                <div class="tech-item">
+                    <strong>JavaScript</strong><br>
+                    Interactividad
+                </div>
+                <div class="tech-item">
+                    <strong>OpenStreetMap</strong><br>
+                    Mapa gratuito
+                </div>
+                <div class="tech-item">
+                    <strong>Font Awesome</strong><br>
+                    Iconografía
+                </div>
+                <div class="tech-item">
+                    <strong>Google Fonts</strong><br>
+                    Tipografía
+                </div>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>📁 Estructura del Proyecto</h2>
+            <div class="code">
+EcoSmart/
+├── index.html          # Página principal
+├── css/
+│   └── styles.css      # Estilos (2000+ líneas)
+├── js/
+│   └── script.js       # JavaScript (400+ líneas)
+├── maps/
+│   └── map-config.js   # Configuración del mapa
+├── images/
+│   └── placeholder.txt # Info sobre imágenes
+├── README.md          # Documentación completa
+└── demo.html          # Este archivo
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3>🚀 Cómo Usar el Sitio</h3>
+            <p><strong>Opción 1 - Rápida:</strong> Simplemente abre <code>index.html</code> en tu navegador</p>
+            <p><strong>Opción 2 - Con servidor local:</strong></p>
+            <div class="code">
+# Python
+python -m http.server 8000
+
+# Node.js
+npx http-server
+
+# VS Code
+Instala "Live Server" y haz clic derecho en index.html
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h2>🗺️ Mapa Interactivo con OpenStreetMap</h2>
+            <p>✅ <strong>¡Completamente gratuito!</strong> No se requiere API key</p>
+            <ul class="feature-list">
+                <li>Marcadores personalizados por estado del tanque</li>
+                <li>Rutas de recolección visualizadas</li>
+                <li>Controles de filtrado interactivos</li>
+                <li>Popups informativos con detalles</li>
+                <li>Zoom y navegación completos</li>
+            </ul>
+            <p><em>El mapa funciona inmediatamente sin configuración adicional.</em></p>
+        </div>
+
+        <div class="demo-section">
+            <h2>📱 Características Responsivas</h2>
+            <ul class="feature-list">
+                <li>Menú hamburguesa en móviles</li>
+                <li>Grid adaptativo para todas las pantallas</li>
+                <li>Botones táctiles optimizados</li>
+                <li>Texto legible en todos los dispositivos</li>
+                <li>Imágenes responsivas</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="demo-button">🌐 Ver Sitio Web Completo</a>
+            <a href="README.md" class="demo-button">📖 Leer Documentación</a>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; opacity: 0.8;">
+            <p><strong>EcoSmart Solutions</strong> - Sitio web desarrollado con tecnologías modernas</p>
+            <p>✨ Diseño profesional • 🚀 Totalmente funcional • 📱 100% responsivo</p>
+        </div>
+    </div>
+</body>
+</html>
